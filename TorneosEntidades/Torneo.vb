@@ -4,7 +4,8 @@
         _nombre = ""
     End Sub
     Sub New(nombre As String)
-        Me._nombre = nombre
+        Me.New()
+        Me.Nombre = nombre
     End Sub
     Public Property Nombre As String
         Get

@@ -6,8 +6,9 @@
         _fechaNacimiento = Nothing
     End Sub
     Sub New(nombre As String, fechaNacimiento As Date)
-        Me._fechaNacimiento = fechaNacimiento
-        Me._nombre = nombre
+        Me.New()
+        Me.FechaNacimiento = fechaNacimiento
+        Me.Nombre = nombre
     End Sub
     Public Property Nombre As String
         Get
